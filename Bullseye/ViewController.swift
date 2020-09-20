@@ -8,7 +8,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-  var currentValue: Int = 0
+  var currentValue: Int = 1
 
   @IBAction func showAlert() {
     let message = "The value of the slider is: \(currentValue)"

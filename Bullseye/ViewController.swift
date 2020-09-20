@@ -8,7 +8,13 @@
 import UIKit
 
 class ViewController: UIViewController {
-  var currentValue: Int = 1
+  @IBOutlet weak var slider: UISlider!
+  var currentValue: Int = 0
+
+  override func viewDidLoad() {
+    super.viewDidLoad()
+    currentValue = lroundf(slider.value)
+  }
 
   @IBAction func showAlert() {
     let message = "The value of the slider is: \(currentValue)"

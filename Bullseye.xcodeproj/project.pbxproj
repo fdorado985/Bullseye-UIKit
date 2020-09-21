@@ -14,6 +14,7 @@
 		A90A0D332517C2420004D2A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90A0D322517C2420004D2A7 /* Assets.xcassets */; };
 		A90A0D362517C2420004D2A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90A0D342517C2420004D2A7 /* LaunchScreen.storyboard */; };
 		A90A0D43251861BA0004D2A7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A0D42251861BA0004D2A7 /* AboutViewController.swift */; };
+		A90A0D47251865160004D2A7 /* Bullseye.html in Resources */ = {isa = PBXBuildFile; fileRef = A90A0D46251865160004D2A7 /* Bullseye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		A90A0D352517C2420004D2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A90A0D372517C2420004D2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A90A0D42251861BA0004D2A7 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
+		A90A0D46251865160004D2A7 /* Bullseye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Bullseye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		A90A0D282517C2410004D2A7 /* Bullseye */ = {
 			isa = PBXGroup;
 			children = (
+				A90A0D46251865160004D2A7 /* Bullseye.html */,
 				A90A0D372517C2420004D2A7 /* Info.plist */,
 				A90A0D42251861BA0004D2A7 /* AboutViewController.swift */,
 				A90A0D292517C2410004D2A7 /* AppDelegate.swift */,
@@ -129,6 +132,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A90A0D362517C2420004D2A7 /* LaunchScreen.storyboard in Resources */,
+				A90A0D47251865160004D2A7 /* Bullseye.html in Resources */,
 				A90A0D332517C2420004D2A7 /* Assets.xcassets in Resources */,
 				A90A0D312517C2410004D2A7 /* Main.storyboard in Resources */,
 			);

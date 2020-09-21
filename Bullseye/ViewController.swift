@@ -44,14 +44,19 @@ class ViewController: UIViewController {
 
     let message = "You scored \(points) points"
     let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
-    let action = UIAlertAction(title: "OK", style: .default, handler: nil)
+    let action = UIAlertAction(title: "OK", style: .default) { _ in
+      self.startNewRound()
+    }
     alert.addAction(action)
     present(alert, animated: true, completion: nil)
-    startNewRound()
   }
 
   @IBAction func sliderMoved(_ slider: UISlider) {
     currentValue = lroundf(slider.value)
+  }
+
+  @IBAction func startOver() {
+    startNewGame()
   }
 
   func startNewRound() {
@@ -66,5 +71,11 @@ class ViewController: UIViewController {
     targetLabel.text = "\(targetValue)"
     scoreLabel.text = "\(score)"
     roundLabel.text = "\(round)"
+  }
+
+  func startNewGame() {
+    score = 0
+    round = 0
+    startNewRound()
   }
 }

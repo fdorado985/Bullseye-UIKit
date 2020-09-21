@@ -13,6 +13,7 @@
 		A90A0D312517C2410004D2A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90A0D2F2517C2410004D2A7 /* Main.storyboard */; };
 		A90A0D332517C2420004D2A7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A90A0D322517C2420004D2A7 /* Assets.xcassets */; };
 		A90A0D362517C2420004D2A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A90A0D342517C2420004D2A7 /* LaunchScreen.storyboard */; };
+		A90A0D43251861BA0004D2A7 /* AboutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A90A0D42251861BA0004D2A7 /* AboutViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A90A0D322517C2420004D2A7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A90A0D352517C2420004D2A7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A90A0D372517C2420004D2A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A90A0D42251861BA0004D2A7 /* AboutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,13 +58,14 @@
 		A90A0D282517C2410004D2A7 /* Bullseye */ = {
 			isa = PBXGroup;
 			children = (
+				A90A0D372517C2420004D2A7 /* Info.plist */,
+				A90A0D42251861BA0004D2A7 /* AboutViewController.swift */,
 				A90A0D292517C2410004D2A7 /* AppDelegate.swift */,
 				A90A0D2B2517C2410004D2A7 /* SceneDelegate.swift */,
 				A90A0D2D2517C2410004D2A7 /* ViewController.swift */,
-				A90A0D2F2517C2410004D2A7 /* Main.storyboard */,
 				A90A0D322517C2420004D2A7 /* Assets.xcassets */,
 				A90A0D342517C2420004D2A7 /* LaunchScreen.storyboard */,
-				A90A0D372517C2420004D2A7 /* Info.plist */,
+				A90A0D2F2517C2410004D2A7 /* Main.storyboard */,
 			);
 			path = Bullseye;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			files = (
 				A90A0D2E2517C2410004D2A7 /* ViewController.swift in Sources */,
 				A90A0D2A2517C2410004D2A7 /* AppDelegate.swift in Sources */,
+				A90A0D43251861BA0004D2A7 /* AboutViewController.swift in Sources */,
 				A90A0D2C2517C2410004D2A7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

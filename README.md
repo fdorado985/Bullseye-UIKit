@@ -21,4 +21,7 @@ When you’re confident of your estimate, you press the “Hit Me!” button and
 * [x] Put the Start Over button on the screen. Make it reset the score and put the player back to the first round.
 * [x] Put the app in landscape orientation.
 * [x] Make it look pretty.
-* [ ] 
+
+## Demo
+
+![bullseye_demo](.screenshots/bullseye_demo.gif)
